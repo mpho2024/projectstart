@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .topnav {
+            background-color: blue;
+            overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: right;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            background-color: aqua;
+        }
+        .sidebar a{
+            display:flex;
+            flex-direction: column;
+        }
+
+        .column img {
+            border-radius: 50%;
+            padding: 50px;
+            max-width: 30%;
+            max-height: 30%;
+        }
+
+        .column {
+            float: left;
+            margin-left: 500px;
+        }
+    
+    </style>
+
+    <div class="topnav">
+        <a href="#home">HOME</a>
+        <a href="#contact">ABOUT ME</a>
+    </div>
+    <div class="sidebar">
+        <a href="#home">HOME</a>
+        <a href="#contact">ABOUT ME</a>
+    </div>
+    <div class="column">
+        <img src="/img/1.jpeg" />
+        <h1>This is Mpho</h1>
+        <p>she is part of the shaper learnership program</p>
+        <button>contact me</button>
+    </div>
+</body>
+
+</html>
